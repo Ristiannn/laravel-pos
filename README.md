@@ -19,7 +19,7 @@ Untuk persyaratan sistem Anda [Check Laravel Requirement](https://laravel.com/do
 
 ### Clone  repository dari github.
 
-    git clone 
+    git clone https://github.com/Ristiannn/msib4_Tugas6_CMS.git
 
 ### Install dependencies
 
