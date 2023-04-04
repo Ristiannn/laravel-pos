@@ -39,7 +39,7 @@
 }
 .swal2-popup.swal2-toast .swal2-icon .swal2-icon-content {
   display: flex;
-  align-items: center;
+  align-items: center; 
   font-size: 1.8em;
   font-weight: bold;
 }

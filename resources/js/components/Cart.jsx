@@ -128,7 +128,7 @@ class Cart extends Component {
     addProductToCart(barcode) {
         let product = this.state.products.find((p) => p.barcode === barcode);
         if (!!product) {
-            // if product is already in cart
+            // if product is already in cart 
             let cart = this.state.cart.find((c) => c.id === product.id);
             if (!!cart) {
                 // update quantity

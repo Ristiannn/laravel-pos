@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
-@section('title', 'Create Product')
-@section('content-header', 'Create Product')
+@section('title', 'Create Category')
+@section('content-header', 'Create Category')
 
 @section('content')
 
@@ -41,17 +41,6 @@
                     <label class="custom-file-label" for="image">Choose file</label>
                 </div>
                 @error('image')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                </span>
-                @enderror
-            </div>
-
-            <div class="form-group">
-                <label for="barcode">Barcode</label>
-                <input type="text" name="barcode" class="form-control @error('barcode') is-invalid @enderror"
-                    id="barcode" placeholder="barcode" value="{{ old('barcode') }}">
-                @error('barcode')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                 </span>

@@ -1,6 +1,6 @@
 /*!
 * sweetalert2 v9.10.12
-* Released under the MIT License.
+* Released under the MIT License. 
 */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :

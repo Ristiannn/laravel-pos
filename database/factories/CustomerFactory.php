@@ -14,3 +14,4 @@ $factory->define(Customer::class, function (Faker $faker) {
         'address' => $faker->address,
     ];
 });
+
